@@ -1,0 +1,155 @@
+@media screen and (max-width:1000px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5vh;
+    }
+    .logo{
+        position: static;
+        margin: 0;
+    }
+
+    .nav-menu{
+        margin: 0;
+        width: 80vw;
+    }
+
+    .header{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-image{
+        width: 80vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .header-image img{
+        margin: 0;
+    }
+
+    .header-right{
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-right p{
+        width: 80vw;
+    }
+
+    .details{
+        height: 350vh;
+        text-align: center;
+
+    }
+
+    .detail-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .detail-card{
+        margin: 5vh 0;
+        width: 50vw;
+        text-align: left;
+    }
+
+    .details::before{
+        height: 350vh;
+        margin: 0;
+        margin-left: -50vw;
+    }
+
+    .detail-info{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-right{
+        width: 80vw;
+    }
+
+    .info-card{
+        width: 30vw;
+    }
+
+    .project-section{
+        padding: 5vh 0;
+    }
+
+    .projects-header{
+        text-align: center;
+        flex-direction: column;
+        height: 25vh;
+    }
+
+    .projects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-image{
+        width: 80vw;
+        height: 40vh;
+
+    }
+
+    .project img{
+        width: 70vw;
+        height: 30vh;
+    }
+
+    .contact-section{
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+        padding:5vh 0;
+    }
+
+    .contact-left{
+        width: 80vw;
+    }
+
+    .contact-button{
+        margin-top: 20px;
+        margin-right: 0;
+    }
+
+    .menu{
+        margin-top: 5vh;
+    }
+
+    .menu ul{
+        width: 80vw;
+    }
+
+    .footer-icons{
+        width: 20vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
